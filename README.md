@@ -42,6 +42,9 @@ spec:
     app: ubuntu
   type: NodePort
 ```
+
+Let's install 
+```
 $ helm list
 $ helm install ubuntu angel-chart
 ```
