@@ -53,7 +53,6 @@ image:
   name: ubuntu
   repository: ubuntu
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
   tag: "1.20"
 ```
 
