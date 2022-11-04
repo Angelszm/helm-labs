@@ -25,9 +25,6 @@ After that, update helm template files:
 ```
 kubectl create deployment ubuntu-test --image=ubuntu --dry-run=client -o yaml > deployment.yaml
 ```
-
-
-
 apiVersion: v1
 kind: Service
 metadata:
@@ -60,13 +57,14 @@ image:
 ```
 
 After that, update both deployment and service yaml files: 
-Update the template/deployment.yml file with 
+Update the template/deployment.yml file with https://github.com/Angelszm/helm-labs/blob/main/angel-chart/templates/deployment.yaml
 
 
-Update the template/service.yml file with 
+Update the template/service.yml file with https://github.com/Angelszm/helm-labs/blob/main/angel-chart/templates/service.yaml
+Also, don't forget to add helper file. 
 
 
-Then, 
+Then, update values file with https://github.com/Angelszm/helm-labs/blob/main/angel-chart/values.yaml
 
 
 ```
