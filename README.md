@@ -25,6 +25,8 @@ After that, update helm template files:
 ```
 kubectl create deployment ubuntu-test --image=ubuntu --dry-run=client -o yaml > deployment.yaml
 ```
+service.yaml file here: 
+```
 apiVersion: v1
 kind: Service
 metadata:
@@ -39,7 +41,6 @@ spec:
   selector:
     app: ubuntu
   type: NodePort
-
 ```
 $ helm list
 $ helm install ubuntu angel-chart
