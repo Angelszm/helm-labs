@@ -72,7 +72,7 @@ $ helm list
 $ helm install ubuntu2 angel-chart
 ```
 
-
+```
 root@k8s:/home/angel# helm list
 NAME   	NAMESPACE	REVISION	UPDATED                                	STATUS  	CHART            	APP VERSION
 ubuntu 	default  	1       	2022-11-04 17:50:29.373085125 +0000 UTC	deployed	angel-chart-0.1.0	1.16.0
